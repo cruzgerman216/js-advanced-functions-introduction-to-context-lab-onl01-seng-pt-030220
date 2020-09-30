@@ -8,7 +8,6 @@ function createEmployeeRecords(arr){
   for(let i =0; i < arr.length; i++){
     result.push(createEmployeeRecord(arr[i]))
   }
-<<<<<<< HEAD
   return result;
 }
 
