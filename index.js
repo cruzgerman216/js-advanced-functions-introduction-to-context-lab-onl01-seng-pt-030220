@@ -8,6 +8,7 @@ function createEmployeeRecords(arr){
   for(let i =0; i < arr.length; i++){
     result.push(createEmployeeRecord(arr[i]))
   }
+<<<<<<< HEAD
   return result;
 }
 
@@ -53,3 +54,8 @@ function calculatePayroll(arr){
 function findEmployeeByFirstName(arr,name){
   return arr.find(element=> element.firstName == name);
 }
+=======
+  console.log(result);
+  return result;
+}
+>>>>>>> c8f40a027e328f940b5b289b93678f3d62e8dfd8
